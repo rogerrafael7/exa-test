@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { ProcessWebhookUseCase } from '../src/application/usecases/process-webhook.usecase';
+import { ProcessWebhookUseCase } from '../src/application/usecases';
 import {
   IPaymentRepository,
   PAYMENT_REPOSITORY,

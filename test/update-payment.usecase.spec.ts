@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { NotFoundException } from '@nestjs/common';
-import { UpdatePaymentUseCase } from '../src/application/usecases/update-payment.usecase';
+import { UpdatePaymentUseCase } from '../src/application/usecases';
 import {
   IPaymentRepository,
   PAYMENT_REPOSITORY,

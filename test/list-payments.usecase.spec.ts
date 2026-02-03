@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { ListPaymentsUseCase } from '../src/application/usecases/list-payments.usecase';
+import { ListPaymentsUseCase } from '../src/application/usecases';
 import {
   IPaymentRepository,
   PAYMENT_REPOSITORY,
